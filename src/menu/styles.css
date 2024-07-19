@@ -44,7 +44,7 @@ body {
 
 .restricted-area:hover {
     background-color: #0078b8; /* Mesma cor azul do menu */
-    color: white; /* Texto muda para branco */
+    color: white; 
 }
 
 .menu {
