@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Carrossel de imagem</title>
+    <link rel="stylesheet" href="stylesC.css">
+
+</head>
+
+<body>
+    <div>
+        <button type="button" class="esquerda" onclick="voltaImagem()" onmouseover="avancaImagem()">
+            <img src="https://sudotec.org.br/imgs/btn-left.png" alt="" class="ImgButton">
+        </button>
+        <button type="button" class="direita" onclick="avancaImagem()" onmouseover="avancaImagem()">
+            <img src="https://sudotec.org.br/imgs/btn-right.png" alt="" class="ImgButton">
+        </button>
+        <img id="imagem-carrossel" src="https://sudotec.org.br/upload/projetos/p_92.jpg?202407152149"
+            alt="imagem atual do carrossel">
+
+
+
+            <script src="script.js"></script>
+    </div>
+
+    <div class="carousel">
+        <div class="item">
+          <img
+            src="https://sudotec.org.br/upload/cursos/dest_1.jpg?Mon0724214932"
+            alt="imagem 1 sudotec"
+          />
+          <div class="text-content">
+            <h1>Informatica Básica</h1>
+            <div>
+              <p>
+                Aprenda como trabalhar com o computador, através da Informática
+                Básica. <br /><br />
+              </p>
+              <p>
+                Windows - Relação de Usuário e Computador, Organização de
+                arquivos, Principais Funções Operacionais.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://sudotec.org.br/upload/cursos/dest_16.jpg?Mon0724214932"
+            alt="imagem 2 sudotec"
+          />
+          <div class="box-título">
+            <h1>Informática Intermediária e Avançada</h1>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="https://sudotec.org.br/upload/cursos/dest_17.jpg?Mon0724214932"
+            alt="imagem 3 sudotec"
+          />
+          <div class="text-content">
+            <h1>Excel</h1>
+          </div>
+        </div>
+      </div>
+</body>
+
+</html>
