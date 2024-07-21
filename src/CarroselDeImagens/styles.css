@@ -1,0 +1,38 @@
+
+
+button {
+    border: none;  
+    background-color: transparent; 
+    position: absolute;
+
+}
+
+button img {
+    border-radius: 50%; 
+    width: 100%; 
+    height: auto;
+}  
+
+
+.esquerda {
+    top: 178px;
+    left: 15px;
+   
+    
+}
+
+.direita {
+    top: 178px;
+    left: 450px;
+   
+    
+    
+}
+
+.img {
+    width: 600px;
+    height: 500px;
+    top: 175px;
+    margin: auto;
+}
+
