@@ -17,6 +17,7 @@ button img {
 .esquerda {
     top: 178px;
     left: 15px;
+    margin-left: 500px;
    
     
 }
@@ -24,9 +25,15 @@ button img {
 .direita {
     top: 178px;
     left: 450px;
+    margin-left: 500px;
    
     
     
+}
+
+.teste{
+ 
+  margin-left: 500px;
 }
 
 .img {
